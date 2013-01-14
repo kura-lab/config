@@ -15,6 +15,8 @@ set number
 set title
 set ruler
 "set list " 改行$表示
+set expandtab
+set softtabstop=2
 set tabstop=2
 set shiftwidth=2
 set autoindent
