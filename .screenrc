@@ -1,0 +1,14 @@
+escape ^T^T
+hardstatus alwayslastline "%Lw"
+startup_message off
+autodetach on
+defencoding utf-8
+vbell off
+defscrollback   5000
+
+#caption always "%{= wb} %-w%{=bu dr}%n %t%{-}%+w %= %{=b wk} [%l] %{=b wb}%y/%m/%d(%D) %{=b wm}%c"
+
+bind n screen
+bind h prev
+bind j next
+bind l windowlist
