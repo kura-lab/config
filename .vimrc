@@ -6,13 +6,21 @@ set fileencodings=utf-8,ucs-bom,euc-jp
 "set fileencoding=euc-jp
 "set fileencodings=ucs-bom
 
+" for PHP
+set cmdheight=4
+set softtabstop=4
+set tabstop=4
+set shiftwidth=4
+
+" for Ruby
+"set cmdheight=2
+"set softtabstop=2
+"set tabstop=2
+"set shiftwidth=2
+
 set backspace=2
 set number
-set cmdheight=2
 set expandtab
-set softtabstop=2
-set tabstop=2
-set shiftwidth=2
 set autoindent
 set showmatch
 set showmode
