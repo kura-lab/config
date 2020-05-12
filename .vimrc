@@ -47,7 +47,7 @@ let php_folding=1
 au Syntax php set fdm=syntax
 
 " vim-go
-call plug#begin('~/.vim/plugged')
-Plug 'fatih/vim-go'
-call plug#end()
+"call plug#begin('~/.vim/plugged')
+"Plug 'fatih/vim-go'
+"call plug#end()
 let g:go_fmt_command = "goimports"
